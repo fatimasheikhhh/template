@@ -1,0 +1,238 @@
+body{
+
+}
+.container{
+    background-color:cadetblue !important;
+    color: aliceblue;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+}
+
+.para {
+    margin-left: 50px;
+    float: left;  
+}
+
+.links {
+    float: right;
+}
+
+.links ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 2px;
+    font-size: large;
+    margin-right: 10px;
+}
+ul li i{
+    color: aliceblue;
+}
+.navbar{
+    background-color: white;
+    position: relative;
+}
+.item1 a{
+    float: left;
+    position: sticky;
+    margin-left: 40px;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+}
+.item1 p a::after {
+   content: 'Rental';
+    color: crimson;
+    font-weight: bold;
+    text-decoration: none;
+}
+#item2{
+    float: right;
+    margin-right: 30px;
+    padding: 10px;
+}
+.item2 ul li {
+    list-style-type: none;
+    float: right;
+    display: inline;
+    padding: 10px;
+    margin-right: 10px; 
+    font-size: larger;
+}
+ul li a{
+    text-decoration: none;
+}
+a:hover {
+    background-color:darkcyan;
+    color: white;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.container1 {
+    position: relative;
+    display: flex;
+    margin-top: 70px;
+    background-image: url('Images/bgf.jpg');
+    opacity: 0.7; /* Add a height to see the background image */
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+.container-item{
+    float: left;
+    left: 30px;
+    top: 20px;
+    position: relative;
+    color: aliceblue;
+}
+div .h{
+    font-size: 70px;
+    text-align: center;
+}
+#btn{
+    padding: 10px;
+    background-color: bisque;
+    color: black;
+    border: none;
+}
+#btn:hover{
+    background-color: cadetblue;
+    color: aliceblue;
+}
+#btn2{
+    padding: 10px;
+    background-color: rgb(109, 7, 109);
+    color: white;
+    border: none;
+}
+#btn2:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.container-item2{
+    float: right;
+    right: 10px;
+    top: 20px;
+    position: absolute;
+    background-color:white;
+    border-radius: 10px;
+    display: block;
+    height: 400px;
+    width: 350px;
+}
+.container2-content{
+    padding: 30px;
+}
+input[type=text]{
+    width: 90%;
+    padding: 10px;
+    background-color: bisque;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    margin: 7px;
+}
+input[type=number],select{
+    width: 80%;
+    padding: 10px;
+    background-color: bisque;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    margin: 7px;
+}
+input[type=time]{
+    width: 70%;
+    padding: 10px;
+    background-color: bisque;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    margin: 7px;
+}
+input[type=submit]{
+    width: 90%;
+    padding: 10px;
+    background-color:cadetblue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin: 7px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 30%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .container3{
+    position:-ms-page;
+    justify-content: center;
+    margin-left: 70px;
+  }
+  button{
+    padding: 20px;
+    background-color:bisque;
+    color: darkolivegreen;
+    border: none;
+    border-radius: 10px;
+  }
+  .Item{
+    display: flex;
+    margin: 20px;
+  }
+  .Item img{
+    height: 200px;
+    margin: 20px;
+  }
+  .content{
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    width: 20%;
+  }
+ .Contain{
+    background-color:cadetblue !important;
+    color: aliceblue;
+    padding: 20px;
+    margin: 10px;
+
+ }
+ .it{
+    display: flex;
+ }
+ input[type=search]{
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: antiquewhite;
+ }
+ li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+ }
+.it div{
+    width: 40%;
+}
+div{
+    margin: 5px;
+}
